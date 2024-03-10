@@ -1,0 +1,18 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run All Tasks",
+      "type": "shell",
+      "command": "g++ ${file} -o ${fileBasenameNoExtension} && ./${fileBasenameNoExtension} < input.txt > temp_output.txt && sed -n '1,1000p' temp_output.txt > output.txt",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "reveal": "never"
+      },
+      "problemMatcher": "$gcc"
+    }
+  ]
+}

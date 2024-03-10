@@ -1,0 +1,10 @@
+{
+  "triggerTaskOnSave.tasks": {
+    "Run All Tasks": [
+      "*.cpp" // <-- Glob pattern to specify which files should trigger the task
+    ]
+  },
+  "files.associations": {
+    "ostream": "cpp"
+  }
+}

@@ -1,0 +1,41 @@
+{
+	"For Test Cases": {
+		"prefix": "testInit",
+		"body": [
+			"#include \"bits/stdc++.h\"",
+			"using namespace std;",
+			"#define int long long",
+			"",
+			"void solve() {",
+			"\t$0",
+			"}",
+			"",
+			"int32_t main() {",
+			"\tios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);",
+			"\tint t;",
+			"\tcin >> t;",
+			"\twhile (t--) {",
+			"\t\tsolve();",
+			"\t\tcout << endl;",
+			"\t}",
+			"\treturn 0;",
+			"}"
+		],
+		"description": "Code with Input Loop"
+	},
+	"Without Test Cases": {
+		"prefix": "cpInit",
+		"body": [
+			"#include \"bits/stdc++.h\"",
+			"using namespace std;",
+			"#define int long long",
+			"",
+			"int32_t main() {",
+			"\t$0",
+			"\treturn 0;",
+			"}"
+		],
+		"description": "Minimal C++ Template"
+	}
+	
+}
